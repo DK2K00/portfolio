@@ -1,3 +1,4 @@
+/*To make as a SPA*/
 html {
     scroll-behavior: smooth;
   }
@@ -6,3 +7,29 @@ html {
     height: 100vh;
     padding: 80px 20px;
   }
+
+  /* Blinking effect for cursor */
+  .cursor {
+    display: inline-block;
+    width: 10px;
+    animation: blink 0.8s infinite;
+  }
+  
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: gray;
+    margin-top: 10px;
+  }
+  
+  
