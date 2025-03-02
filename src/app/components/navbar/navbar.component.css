@@ -1,24 +1,23 @@
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   background: #212426;
   padding: 1rem;
+  padding-right: 5%;
 }
 
-.logo {
-  color: white;
-  text-decoration: none;
-  font-size: 1.5rem;
-}
 
 .nav-links {
   list-style: none;
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-links li {
   margin-left: 20px;
+  align-content: end;
 }
 
 .nav-links a {

@@ -15,7 +15,7 @@ export class AppComponent implements OnInit {
   description: string = 'I am a software developer that specializes in the MEAN stack and Spring boot.';
   displayedDescription: string = '';
   descriptionIndex: number = 0;
-  showDescCursor: boolean = true;
+  showDescCursor: boolean = false;
 
   ngOnInit() {
     this.printNameLetterByLetter();
@@ -30,8 +30,9 @@ export class AppComponent implements OnInit {
         clearInterval(nameInterval);
         this.showNameCursor = false;
 
-        // Ensure that the description starts only after the name is fully typed
+        // Start description after a short delay
         setTimeout(() => {
+          this.showDescCursor = true; // Show cursor only when typing starts
           this.printDescriptionLetterByLetter();
         }, 500);
       }
@@ -47,7 +48,7 @@ export class AppComponent implements OnInit {
         clearInterval(descInterval);
         this.showDescCursor = false; // Hide cursor when done
       }
-    }, 30); // Typing speed for description
+    }, 25); // Typing speed for description
   }
 }
 

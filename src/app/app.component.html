@@ -1,8 +1,8 @@
 <app-navbar></app-navbar>
 
 <!--Prints out my name and description-->
-<h1>{{ displayedName }}<span *ngIf="showNameCursor" class="cursor">|</span></h1>
-<p>{{ displayedDescription }}<span *ngIf="showDescCursor" class="cursor">|</span></p>
+<h1 id="myname">{{ displayedName }}<span *ngIf="showNameCursor" class="cursor">|</span></h1>
+<p id="mydesc">{{ displayedDescription }}<span *ngIf="showDescCursor" class="cursor">|</span></p>
 
 <section id="about" class="section">
   <h2>About Us</h2>
