@@ -1,0 +1,77 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 50px;
+  }
+  
+  /* Wider, Shorter Terminal Window */
+  .terminal-window {
+    background: #3b3f58;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+    width: 1000px; /* Increased width */
+    height: 400px; /* Reduced height */
+    max-width: 95%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Terminal Header (Title Bar) */
+  .terminal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #44475a;
+    padding: 12px 16px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  
+  /* Window Control Buttons */
+  .window-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .window-buttons span {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .close { background: #ff5f56; }
+  .minimize { background: #ffbd2e; }
+  .maximize { background: #27c93f; }
+  
+  /* Window Title */
+  .window-title {
+    font-size: 16px;
+    color: #f8f8f2;
+    font-weight: bold;
+    text-align: center;
+    flex-grow: 1;
+  }
+ /* Terminal Content (Reduced Vertical Gap) */
+.terminal-content {
+    background: #3b3f58;
+    padding: 30px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    flex-grow: 1;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    color: #f8f8f2;
+  }
+  
+  /* Reduce space between each response line */
+  .terminal-content p {
+    margin: 2px 0; /* Minimal vertical spacing */
+    line-height: 1.2; /* Reduces extra spacing inside text */
+  }
+  
+  
