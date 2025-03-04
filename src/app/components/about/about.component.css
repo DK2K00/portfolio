@@ -12,7 +12,7 @@
     border-radius: 12px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
     width: 1000px; /* Increased width */
-    height: 400px; /* Reduced height */
+    height: 500px; /* Reduced height */
     max-width: 95%;
     overflow: hidden;
     display: flex;
@@ -47,14 +47,7 @@
   .minimize { background: #ffbd2e; }
   .maximize { background: #27c93f; }
   
-  /* Window Title */
-  .window-title {
-    font-size: 16px;
-    color: #f8f8f2;
-    font-weight: bold;
-    text-align: center;
-    flex-grow: 1;
-  }
+
  /* Terminal Content (Reduced Vertical Gap) */
 .terminal-content {
     background: #3b3f58;
@@ -65,13 +58,23 @@
     font-size: 18px;
     display: flex;
     flex-direction: column;
-    color: #f8f8f2;
+    color: #9f9f0e;
   }
   
   /* Reduce space between each response line */
   .terminal-content p {
     margin: 2px 0; /* Minimal vertical spacing */
     line-height: 1.2; /* Reduces extra spacing inside text */
+    color: #e6cf7e
+  }
+
+  .terminal-content a{
+    color: #3ffeff;
+    text-decoration: none;
+  }
+
+  .titlequestion{
+    color: #e3e1dd;
   }
   
   
