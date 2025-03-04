@@ -13,15 +13,18 @@
   display: flex;
   margin: 0;
   padding: 0;
+  padding-right: 6rem;
 }
 
 .nav-links li {
   margin-left: 20px;
   align-content: end;
+  padding-top: 2rem;
 }
 
 .nav-links a {
   color: white;
   text-decoration: none;
   font-size: 1.2rem;
+  padding-right: 4rem;
 }
