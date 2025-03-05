@@ -1,0 +1,10 @@
+<div class="project-list">
+    <div *ngFor="let project of projects">
+      <app-project 
+        [title]="project.title" 
+        [description]="project.description" 
+        [technologies]="project.technologies">
+      </app-project>
+    </div>
+  </div>
+  
