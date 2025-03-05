@@ -1,9 +1,13 @@
 <div class="project-list">
+    <h3>Project List</h3>
     <div *ngFor="let project of projects">
       <app-project 
         [title]="project.title" 
         [description]="project.description" 
-        [technologies]="project.technologies">
+        [image]="project.image"
+        [technologies]="project.technologies"
+        [liveDemo]="project.liveDemo"
+        [sourceCode]="project.sourceCode">
       </app-project>
     </div>
   </div>
