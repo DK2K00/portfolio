@@ -1,6 +1,30 @@
 .project-list {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Exactly 2 cards per row */
+  gap: 50px; /* Increase space between cards */
+  justify-content: center; /* Centers the grid */
+  align-items: center; /* Aligns items vertically */
+  padding: 20px;
+  width: 100%;
+  max-width: 1000px; /* Prevents grid from stretching too much */
+  margin: 0 auto; /* Centers the grid */
+}
+
+
+@media (max-width: 768px) {
+  .project-list {
+    grid-template-columns: 1fr; /* Switch to 1 card per row */
+    gap: 30px; /* Reduce gap for smaller screens */
   }
+}
+
+
+
+
+
+
+
+
+
+  
   
