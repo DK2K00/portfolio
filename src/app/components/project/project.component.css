@@ -10,7 +10,7 @@
   background-color: #070F2B;
   width: 100%;
   max-width: 400px; /* Ensures uniform width */
-  height: 350px; /* Set a fixed height */
+  height: 550px; /* Set a fixed height */
   overflow: hidden; /* Prevents overflow if content is too long */
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
 }
@@ -42,8 +42,8 @@
 
 /* Ensure images fit well */
 .project-image {
-  width: 80px; /* Adjust image size */
-  height: 80px;
+  width: 400px; /* Adjust image size */
+  height: 250px;
   object-fit: cover;
   border-radius: 8px; /* Optional: rounded edges */
 }
