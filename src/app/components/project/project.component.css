@@ -5,12 +5,12 @@
   align-items: center;
   gap: 10px;
   padding: 20px;
-  border: 1px solid #ddd;
+  border: 1px solid #1B1A55;
   border-radius: 10px;
-  background-color: #f9f9f9;
+  background-color: #070F2B;
   width: 100%;
   max-width: 400px; /* Ensures uniform width */
-  height: 320px; /* Set a fixed height */
+  height: 350px; /* Set a fixed height */
   overflow: hidden; /* Prevents overflow if content is too long */
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
 }
@@ -32,6 +32,12 @@
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
+  color: #9290C3;
+}
+
+.project-title{
+  font-weight: 600;
+  font-size: large;
 }
 
 /* Ensure images fit well */
@@ -60,11 +66,13 @@
 }
 
 .technology-box {
-  background-color: #007bff;
-  color: white;
+  background-color: #070F2B;
+  color: #9290C3;
   padding: 5px 10px;
-  border-radius: 5px;
+  border-radius: 0;
+  border: 2px solid #1B1A55;
   font-size: 12px;
+  font-weight: 500;
   display: inline-block;
 }
 
@@ -91,16 +99,16 @@
 }
 
 .live-demo {
-  background-color: #28a745;
+  background-color: #1e005b;
   color: white;
 }
 
 .live-demo:hover {
-  background-color: #218838;
+  background-color: #1a0365;
 }
 
 .source-code {
-  background-color: #007bff;
+  background-color: #212427;
   color: white;
 }
 

@@ -1,4 +1,6 @@
 import { Component, Input } from '@angular/core';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-project',
@@ -13,4 +15,7 @@ export class ProjectComponent {
   @Input() technologies: string[] = []; // Technologies as an array
   @Input() liveDemo: string = ''; // Live demo URL
   @Input() sourceCode: string = ''; // GitHub repository URL
+
+  faGithub = faGithub;
+  faExternalLink = faArrowUpRightFromSquare;
 }

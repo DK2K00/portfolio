@@ -1,7 +1,7 @@
 <div class="project-card">
   <img [src]="image" alt="{{ title }}" class="project-image" />
   <div class="project-details">
-    <h4>{{ title }}</h4>
+    <h4 class="project-title">{{ title }}</h4>
     <p class="project-description">{{ description }}</p>
 
     <div class="technology-list">
@@ -13,9 +13,9 @@
     <br />
 
     <div class="buttons">
-      <a [href]="liveDemo" target="_blank" class="btn live-demo">Live Demo</a>
+      <a [href]="liveDemo" target="_blank" class="btn live-demo">Live Demo <fa-icon [icon]="faExternalLink"></fa-icon></a>
       <a [href]="sourceCode" target="_blank" class="btn source-code"
-        >View Source</a
+        ><fa-icon [icon]="faGithub"></fa-icon> View Source</a
       >
     </div>
   </div>
