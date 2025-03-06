@@ -2,13 +2,15 @@
   <img [src]="image" alt="{{ title }}" class="project-image" />
   <div class="project-details">
     <h4>{{ title }}</h4>
-    <p>{{ description }}</p>
+    <p class="project-description">{{ description }}</p>
 
     <div class="technology-list">
       <span *ngFor="let tech of technologies" class="technology-box">{{
         tech
       }}</span>
     </div>
+
+    <br />
 
     <div class="buttons">
       <a [href]="liveDemo" target="_blank" class="btn live-demo">Live Demo</a>

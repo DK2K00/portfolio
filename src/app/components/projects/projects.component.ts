@@ -10,20 +10,30 @@ export class ProjectsComponent {
   // Directly defining projects here
   projects = [
     {
-      title: 'Project One',
-      description: 'This is the description for project one.',
+      title: 'Original Clothing',
+      description: 'An online clothing store where users can add and shop for clothes.',
       image: 'assets/images/project1.png',
-      technologies: ['Angular', 'TypeScript', 'CSS'],
-      liveDemo: 'https://your-live-demo-url.com/project-one',
-      sourceCode: 'https://github.com/yourusername/project-one'
+      technologies: ['Angular', 'TypeScript', 'SCSS'],
+      liveDemo: 'https://github.com/DK2K00/original-clothing',
+      sourceCode: 'https://github.com/DK2K00/original-clothing',
     },
     {
-      title: 'Project Two',
-      description: 'This is the description for project two.',
-      image: 'assets/images/project2.png',
-      technologies: ['React', 'JavaScript', 'Sass'],
-      liveDemo: 'https://your-live-demo-url.com/project-two',
-      sourceCode: 'https://github.com/yourusername/project-two'
-    }
+      title: 'Assignment Tracker',
+      description:
+        'Track your university assignments from assigned date, current status and due date.',
+      image: 'assets/images/project1.png',
+      technologies: ['Spring Boot', 'Postgres', 'Docker', 'Java'],
+      liveDemo: 'https://github.com/DK2K00/Assignment-tracker/tree/main',
+      sourceCode: 'https://github.com/DK2K00/Assignment-tracker/tree/main',
+    },
+    {
+      title: 'Pictorial',
+      description:
+        'A Java based Tic Tac Toe game where pictures are used instead of X and O.',
+      image: 'assets/images/project1.png',
+      technologies: ['Java'],
+      liveDemo: 'https://github.com/DK2K00/pictorial/tree/main',
+      sourceCode: 'https://github.com/DK2K00/pictorial/tree/main',
+    },
   ];
 }

@@ -9,11 +9,21 @@
   border-radius: 10px;
   background-color: #f9f9f9;
   width: 100%;
-  max-width: 400px; /* Ensures uniform card width */
-  min-height: 280px; /* Keeps card height consistent */
+  max-width: 400px; /* Ensures uniform width */
+  height: 320px; /* Set a fixed height */
+  overflow: hidden; /* Prevents overflow if content is too long */
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+.project-description {
+  flex-grow: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Limits to 3 lines */
+  -webkit-box-orient: vertical;
+  line-clamp: 3; /* Standard property for compatibility */
+}
 
 /* Ensures all content inside the card is evenly spaced */
 .project-details {
@@ -24,7 +34,6 @@
   width: 100%;
 }
 
-
 /* Ensure images fit well */
 .project-image {
   width: 80px; /* Adjust image size */
@@ -32,7 +41,6 @@
   object-fit: cover;
   border-radius: 8px; /* Optional: rounded edges */
 }
-
 
 /* Responsive Fix */
 @media (max-width: 768px) {
@@ -43,7 +51,6 @@
     height: auto; /* Allow cards to resize naturally on small screens */
   }
 }
-
 
 .technology-list {
   margin-top: 10px;
@@ -82,7 +89,6 @@
 .btn:hover {
   background-color: #0056b3;
 }
-
 
 .live-demo {
   background-color: #28a745;
