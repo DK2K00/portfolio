@@ -60,3 +60,9 @@ hr {
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
+
+#contact-header{
+  text-align: center;
+  color: #a59d92;
+  font-weight: 400;
+}
