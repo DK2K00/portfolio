@@ -2,7 +2,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background: #212426;
+  background: #191b1d;
   padding: 1rem;
   padding-right: 5%;
 }
@@ -23,8 +23,13 @@
 }
 
 .nav-links a {
-  color: white;
+  color: #a59d92;
   text-decoration: none;
   font-size: 1.2rem;
   padding-right: 4rem;
+}
+
+nav a:hover {
+  color: #007bff; /* Change text color on hover */
+  transform: scale(1.05); /* Slight zoom effect */
 }

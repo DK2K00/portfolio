@@ -29,22 +29,22 @@ html {
 
 #myname {
   font-size: 3rem;
-  font-weight: bold;
-  color: rgba(255, 255, 255, 0.87);
+  font-weight: 400;
+  color: rgba(146, 144, 195, 0.87);
   padding-left: 10%;
   padding-top: 5%;
 }
 
 .namepointer {
   font-size: 3.5rem;
-  color: rgba(255, 255, 255, 0.87);
+  color: rgba(146, 144, 195, 0.87);
   padding-left: 10%;
   padding-top: 5%;
 }
 
 #mydesc {
   font-size: 1.2rem;
-  color: rgba(255, 255, 255, 0.87);
+  color: rgba(165, 157, 146, 0.87);
   margin-top: 10px;
   padding-left: 20%;
 }
@@ -58,10 +58,15 @@ html {
 hr {
   border: 0;
   height: 1px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
 }
 
-#contact-header{
+#contact-header {
   text-align: center;
   color: #a59d92;
   font-weight: 400;
